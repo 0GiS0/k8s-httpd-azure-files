@@ -2,8 +2,6 @@
 RESOURCE_GROUP="k8s-httpd-azure-file"
 LOCATION="northeurope"
 AKS_NAME="httpd-demo"
-AZURE_STORAGE_NAME="httpdfiles"
-SHARE_NAME="assets"
 
 #Create resource group
 az group create -n $RESOURCE_GROUP -l $LOCATION
